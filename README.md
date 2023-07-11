@@ -19,7 +19,7 @@ To properly analyze the results, it is very important to take note of the host, 
 In this scenario, it is essential to narrow the search results for events from the mail server to explore any failed SSH login for the root account on the mail server. <br />
 We can do this by simply adding "host=mailsv" to our search bar. <br />
 <img src="https://i.imgur.com/3o2gnPo.png" height="80%" alt="Narrow Search 1"/> <br />
-Notice that the search result amount lowers from ---- down to just 9,829 in this instance.<br />
+Notice that the search result amount lowers from 219,728 results, down to 9,829 in this instance.<br />
 We can also narrow our search like this by clicking "host" in the "SELECTED FIELDS" and selecting "mailsv". <br />
 <img src="https://i.imgur.com/TXaSIdh.png" height="80%" alt="Narrow Search 2"/> <br />
 
