@@ -11,9 +11,14 @@ We can also narrow our search like this by clicking "host" in the "SELECTED FIEL
 
 
 
-<h2>Search for Failed Root Login</h2>
+<h2>Search For and Evaluate Failed Root Logins</h2>
 In this step we'll be narrowing our search even further to locate any failed SSH logins for the root account. <br />
 We'll do this by simply adding the root words, "fail*" (the * being a wildcard allowing search results to include anything with 'fail' in the word) and "root". These will filter out any results that don't include both of these words within them. <br />
 <img src="https://i.imgur.com/1gol3gf.png" height="80%" alt="Failed Root Login 1"/> <br />
 Note that the occurence of the specified keywords are highlighted within the search results. <br />
+It should also be noted and reported that there are over 300 results after our filtering, which may very well be cause for alarm for Buttercup Games as each result eludes to a failed login attempt for the root user within the "mailsv" host. <br />
 
+<br />
+<br />
+
+<h4>End of Project</h4>
