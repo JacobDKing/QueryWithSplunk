@@ -4,13 +4,22 @@ This project is meant to demonstrate ability to use Splunk Cloud to upload data,
 <h2>Scenario</h2>
 In this project, I act as a security analyst working at the fictional, e-commerce store, Buttercup Games. You've been tasked with identifying whether there are any possible security issues with the mail server. To do so, you must explore any failed SSH logins for the root account.  
 
+<br />
+<br />
 
+<h2>Perform Basic Search</h2>
+In this step, we'll be navigating to the 'Search & Reporting' section of Splunk Cloud and beginning our search query "index=main". This query indicates that the results shown, should only come from the data repository, "main". We will also change our timeline filter to "All time". <br />
+<img src="https://i.imgur.com/1h5YrUD.png" height="80%" alt="Basic Search"/> <br />
+To properly analyze the results, it is very important to take note of the host, source, and sourcetype fields. These provide essential information that will need to be utilized to properly perform any data evaluations. <br />
+
+<br />
+<br />
 
 <h2>Narrow The Search</h2>
 In this scenario, it is essential to narrow the search results for events from the mail server to explore any failed SSH login for the root account on the mail server. <br />
 We can do this by simply adding "host=mailsv" to our search bar. <br />
 <img src="https://i.imgur.com/3o2gnPo.png" height="80%" alt="Narrow Search 1"/> <br />
-Notice that the search result amount lowers from ---- down to just 9,829 in this instance.
+Notice that the search result amount lowers from ---- down to just 9,829 in this instance.<br />
 We can also narrow our search like this by clicking "host" in the "SELECTED FIELDS" and selecting "mailsv". <br />
 <img src="https://i.imgur.com/TXaSIdh.png" height="80%" alt="Narrow Search 2"/> <br />
 
