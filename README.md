@@ -1,5 +1,5 @@
 # Performing Queries with Splunk Cloud
-This project demonstrates the ability to use Splunk Cloud to upload data, perform searches on data as well as perform general security operations with this tool.
+This project demonstrates the ability to use Splunk Cloud to upload data, perform searches on data as well as perform general security operations within a cloud environment.
 
 <h2>Scenario</h2>
 As a security analyst working at the fictional, e-commerce company, "Buttercup Games"; the task is to identify any possible security issues with the internal mail server. To do this, we must explore any failed SSH logins for the root account.  
