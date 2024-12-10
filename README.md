@@ -7,7 +7,7 @@ As a security analyst working at the fictional, e-commerce company, "Buttercup G
 <br />
 <br />
 
-<h2>Perform Basic Search</h2>
+<h2>Perform Broad Query</h2>
 In this step, we navigate to the 'Search & Reporting' section of Splunk Cloud and beginning our search query "index=main". This query indicates that the results shown, should only come from the data repository, "main". We  also change our timeline filter to "All time" to widen our scope. <br />
 <img src="https://i.imgur.com/1h5YrUD.png" height="80%" alt="Basic Search"/> 
 To properly analyze the results, it is very important to take note of the host, source, and sourcetype fields. These provide essential information that will need to be utilized to properly perform any data evaluations. <br />
